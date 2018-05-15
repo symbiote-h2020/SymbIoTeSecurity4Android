@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
   public static final String TAG = "MainActivity";
   private final String AAMServerAddress = "https://symbiote-open.man.poznan.pl/coreInterface/";
   private String keyStorePassword = "KEYSTORE_PASSWORD";
-  private String icomUsername = "icom";
-  private String icomPassword = "icom";
+  private String icomUsername = "USERNAME";
+  private String icomPassword = "PASSWORD";
   private String platformId = "SymbIoTe_Core_AAM";
   private String clientId = "1ef55ca2-206a-11e8-b467-0ed5f89f718b";
   private String keyStoreFilename = "/keystore.jks";
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
     //don't put the network job to background like this in your app
     // - this is only an example :)
     new Thread(new Runnable() {
