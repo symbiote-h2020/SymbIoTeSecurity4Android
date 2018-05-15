@@ -9,12 +9,9 @@ Add to your build.gradle in the app module:
 
 ```groovy
 dependencies {
-  implementation 'com.github.symbiote-h2020:SymbIoTeSecurity4Android:1.0.0'
+  implementation 'com.github.symbiote-h2020:SymbIoTeSecurity4Android:25.6.0'
 }
 ```
 
 # Example use case
 There is sample app module with [activity](https://github.com/symbiote-h2020/SymbIoTeSecurity4Android/blob/master/sampleapp/src/main/java/symbiote/h2020/eu/sampleapp/MainActivity.java) where you find a step by step guidance how to get SecurityRequest
-
-# Version 
-1.0.0 => SS 25.6.0
