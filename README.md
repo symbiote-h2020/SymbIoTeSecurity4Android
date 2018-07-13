@@ -9,7 +9,7 @@ Add to your build.gradle in the app module:
 
 ```groovy
 dependencies {
-  implementation 'com.github.symbiote-h2020:SymbIoTeSecurity4Android:25.6.0'
+  implementation 'com.github.symbiote-h2020:SymbIoTeSecurity4Android:27.0.0'
 }
 ```
 
