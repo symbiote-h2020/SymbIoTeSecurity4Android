@@ -5,12 +5,32 @@
 This is a fork of the [SymbIoTeSecurity](https://github.com/symbiote-h2020/SymbIoTeSecurity) library customized for Android platform.
 
 # Usage
+Add to your project build.gradle the jitpack repository as shown below:
+```groovy
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
 Add to your build.gradle in the app module:
 
 ```groovy
 dependencies {
   implementation 'com.github.symbiote-h2020:SymbIoTeSecurity4Android:27.2.0'
 }
+```
+
+```groovy
+ android {
+    ...
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 ```
 
 # Example use case
