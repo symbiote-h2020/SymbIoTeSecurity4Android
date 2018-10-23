@@ -33,7 +33,7 @@ dependencies {
     }
 ```
 # Important note for developers on Windows platform
-The library uses symbolic links to connected up-to-date SymbioteSecurity library. Windows users need to pass three steps:
+The library uses symbolic links to be connected with up-to-date SymbioteSecurity library (added as git submodule). Windows users need to pass three steps:
 1) Go to directory with SymbioteSecurity4Android project
 2) Remove the existing Linux,Mac-oriented symlink:   ```c:\git\SymbIoTeSecurity4Android\ss4android\src\main>del java```
 3) create new windows like symlink: ```c:\git\SymbIoTeSecurity4Android\ss4android\src\main>mklink /D java ..\..\..\externals\ss\src\main\java\```
